@@ -62,8 +62,13 @@ li:first-letter {
 .weather-temperature .active {
   color: #333333;
   cursor: default;
+  text-decoration: none;
 }
 
 .weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.github-link {
   text-decoration: none;
 }
