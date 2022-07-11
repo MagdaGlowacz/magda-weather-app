@@ -1,13 +1,28 @@
+html {
+  height: 100%;
+}
+
 body {
   font-family: arial, sans-serif;
+  background: linear-gradient(
+    60.8deg,
+    rgba(255, 136, 102, 0.67) -53.1%,
+    rgba(255, 221, 136, 0.28) 49%
+  );
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 h1 {
-  color: #878787;
-  font-size: 24px;
+  color: #5a5555;
+  font-size: 34px;
   font-weight: 100;
-  line-height: 28px;
+  line-height: 48px;
   margin-bottom: 0;
+  margin-left: 30px;
+  margin-top: 20px;
 }
 
 ul {
@@ -18,25 +33,45 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: #878787;
-  font-size: 16px;
+  color: #5a5555;
+  font-size: 22px;
   font-weight: 100;
-  line-height: 19px;
+  line-height: 27px;
+  margin-left: 30px;
 }
+
 li:first-letter {
   text-transform: capitalize;
 }
+
+.btn-outline-secondary {
+  color: #fff;
+  background-color: #ecb4b4;
+  border-color: #fff;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.btn-outline-secondary:hover {
+  color: #ecb4b4;
+  background-color: #fff;
+  border-color: #ecb4b4;
+}
+#city-input {
+  margin-top: 30px;
+}
+
 .weather-app-wrapper {
-  max-width: 600px;
+  max-width: 1000px;
   margin: 100px auto;
 }
 
 .weather-app {
-  max-width: 600px;
+  max-width: 1000px;
   margin: 30px auto;
   padding: 20px;
-  border: 1px solid #dadde1;
+  border: 3px solid #d4a5a5;
   border-radius: 10px;
+  background: #c5e5f3;
 }
 .overview {
   margin-bottom: 20px;
@@ -45,6 +80,14 @@ li:first-letter {
   margin-right: 10px;
   height: 64px;
   width: 64px;
+}
+#main-temp {
+  margin-left: 50px;
+}
+
+.col-6 {
+  flex: 0 0 auto;
+  width: 47%;
 }
 
 .weather-temperature strong {
@@ -60,22 +103,30 @@ li:first-letter {
 }
 
 .weather-temperature .active {
-  color: #333333;
+  color: #5a5555;
   cursor: default;
   text-decoration: none;
 }
-
 .weather-temperature .active:hover {
   text-decoration: none;
 }
 
 .github-link {
   text-decoration: none;
+  font-size: small;
+  color: #5a5555;
 }
 
 .weather-forecast {
-  margin-top: 20px;
+  margin-top: 42px;
   text-align: center;
+  border: 1px solid #c8e7ed;
+  border-radius: 10px;
+}
+
+.col-2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .weather-forecast-date {
   font-size: 16px;
