@@ -28,7 +28,7 @@ li:first-letter {
 }
 .weather-app-wrapper {
   max-width: 600px;
-  margin: 30px auto;
+  margin: 100px auto;
 }
 
 .weather-app {
