@@ -73,19 +73,19 @@ li:first-letter {
   text-decoration: none;
 }
 
-.weather-forcast {
+.weather-forecast {
   margin-top: 20px;
   text-align: center;
 }
-.weather-forcast-date {
+.weather-forecast-date {
   font-size: 16px;
   color: #333333;
 }
 
-.weather-forcast-temp-min {
+.weather-forecast-temp-min {
   opacity: 0.5;
 }
 
-.weather-forcast-temp {
+.weather-forecast-temp {
   font-size: 13px;
 }
